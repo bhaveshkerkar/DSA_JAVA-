@@ -7,12 +7,12 @@ public class ifelse{
         if(age >= 18){
             System.out.println("You are Eligible for vote");
         }
-
-        if(age > 13 && age < 18){
-            System.out.println("You are Teenager");
+       
+        if(age > 0 && age <= 18){
+            System.out.println("You are Teenager! u cant vote");
         }
         else{
-            System.out.println("You Can't Vote");
+            System.out.println("You Can Vote");
         }
     }
 }

@@ -1,11 +1,14 @@
 public class ProdAB {
-    public static void prodAB(int a, int b){
+    public static int prodAB(int a, int b){
         int product = a * b;
-        System.out.println("Product of " + a + " and " + b + " = " + product);
+        return product;
     }
 
     public static void main(String[] args) {
-        prodAB(4, 5);
+        int a = 3;
+        int b = 7;
+        int prod = prodAB(a, b);
+        System.out.println("a * b = " + prod);
     }
     
 }

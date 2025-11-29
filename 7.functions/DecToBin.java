@@ -12,11 +12,11 @@ public class DecToBin {
         n = n/2;
     }
 
-    System.out.println("Decimal of " +myNum+ " = " +binNum);
+    System.out.println("decimal of " +myNum+ " = " +binNum);
 }
     
     public static void main(String[] args) {
-     DecToBin(7);
+     DecToBin(6);
         
     }
 }

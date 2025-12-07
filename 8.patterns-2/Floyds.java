@@ -10,6 +10,6 @@ public class Floyds {
         }
     }
     public static void main(String[] args) {
-        floyds(5);
+        floyds(3);
     }   
 }

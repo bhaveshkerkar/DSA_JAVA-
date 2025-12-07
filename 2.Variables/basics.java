@@ -9,13 +9,13 @@
 // }
 
 
-public class Bignum{
-    public static void main(string args[]){
+public class basics{
+    public static void main(String args[]){
         int a = 1;
         int b = 2;
 
         System.out.println(a + b);
-        string name = " Bhavesh";
+        String name = " Bhavesh";
         System.out.println(name);
     }
 }

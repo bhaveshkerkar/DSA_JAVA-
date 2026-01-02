@@ -16,6 +16,6 @@ public class bineToDec {
 
 
     public static void main(String[] args) {
-        bineToDec(101);
+        bineToDec(11);
     }
 }

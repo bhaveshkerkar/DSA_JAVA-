@@ -1,22 +1,22 @@
 public class DecToBin {
-    public static void DecToBin(int n){
-    int myNum = n;
+    public static void DecToBin(int Decimal){
+    int myNum = Decimal;
     int pow = 0;
     int binNum = 0;
 
-    while (n > 0) {
-        int rem = n %2 ;
+    while (Decimal > 0) {
+        int rem = Decimal % 2 ;
         binNum = binNum + (rem * (int)Math.pow(10,pow));
 
         pow ++;
-        n = n/2;
+        Decimal = Decimal/2;
     }
 
-    System.out.println("decimal of " +myNum+ " = " +binNum);
+    System.out.println("decimal of " +myNum+ " is = " + binNum );
 }
     
     public static void main(String[] args) {
-     DecToBin(6);
+     DecToBin(25);
         
     }
 }

@@ -11,11 +11,11 @@ public class bineToDec {
             pow++;
             binNum = binNum/10;
         }
-        System.out.println("Decimal of " + myNum +" = " +decNum);
+        System.out.println("Decimal of " + myNum +" = " + decNum);
     }
 
 
     public static void main(String[] args) {
-        bineToDec(11);
+        bineToDec(2);
     }
 }
